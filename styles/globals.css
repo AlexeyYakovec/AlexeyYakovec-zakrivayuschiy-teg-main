@@ -53,3 +53,27 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+/* photo block filters */
+
+.grayscale {
+  filter: grayscale(50%);
+}
+.hue-rotate {
+  filter: hue-rotate(30deg);
+}
+.saturate {
+  filter: saturate(360%);
+}
+.invert {
+  filter: invert(80%);
+}
+.sepia {
+  filter: sepia(80%);
+}
+.blur {
+  filter: blur(20px);
+}
+.mutli-filter {
+  filter: saturate(250%) hue-rotate(90deg) grayscale(20%) invert(25%) blur(2px);
+}
